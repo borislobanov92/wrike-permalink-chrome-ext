@@ -1,0 +1,16 @@
+ {
+    "name": "Wrike Permalink Opener",
+    "version": "0.1",
+    "description": "Open Wrike permalink in existing Wrike tabs to prevent loading 16MB of Angular into your browser!",
+    "permissions": ["tabs", "https://www.wrike.com/*", "webRequest"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "icons": { 
+    	"16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png" 
+    },
+    "manifest_version": 2
+}
